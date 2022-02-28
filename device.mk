@@ -49,6 +49,9 @@ PRODUCT_PACKAGES += \
     libudfpshandler \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 # Fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
