@@ -19,6 +19,9 @@ AUDIO_FEATURE_ENABLED_INSTANCE_ID := true
 
 BOARD_USES_ALSA_AUDIO := true
 
+# Compression
+PRODUCT_FS_COMPRESSION := 1
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 ODM_MANIFEST_SKUS += davinci
