@@ -1,0 +1,30 @@
+[
+    {
+        "repository":   "LineageOS/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "branch":       "lineage-20"
+    },
+    {
+        "repository":   "crdroidandroid/android_device_xiaomi_sm6150-common",
+        "target_path":  "device/xiaomi/sm6150-common",
+        "branch":       "13.0-davinci"
+    },
+    {
+        "repository":   "xNombre/msm-4.14",
+        "target_path":  "kernel/xiaomi/sm6150"
+        "branch":       "13.0"
+    },
+    {
+        "repository":   "xNombre/proprietary_vendor_xiaomi_sm6150-common",
+        "target_path":  "vendor/xiaomi/sm6150-common"
+    },
+    {
+        "repository":   "xNombre/proprietary_vendor_xiaomi_davinci",
+        "target_path":  "vendor/xiaomi/davinci"
+    },
+    {
+        "remote":       "crdroid-gitlab",
+        "repository":   "crdroidandroid/android_vendor_miuicamera",
+        "target_path":  "vendor/xiaomi/miuicamera"
+    }
+]
