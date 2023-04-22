@@ -40,7 +40,6 @@
     <!-- Different CPU speeds as reported in
          /sys/devices/system/cpu/cpufreq/ploicy0/scaling_available_frequencies -->
     <array name="cpu.core_speeds.cluster0">
-      <value>300000</value> <!-- 300 MHz CPU speed -->
       <value>576000</value> <!-- 576 MHz CPU speed -->
       <value>768000</value> <!-- 768 MHz CPU speed -->
       <value>1017600</value> <!-- 1017 MHz CPU speed -->
@@ -54,7 +53,6 @@
     <!-- Different CPU speeds as reported in
          /sys/devices/system/cpu/cpufreq/ploicy4/scaling_available_frequencies -->
     <array name="cpu.core_speeds.cluster1">
-      <value>300000</value> <!-- 300 MHz CPU speed -->
       <value>652800</value> <!-- 652 MHz CPU speed -->
       <value>806400</value> <!-- 806 MHz CPU speed -->
       <value>979200</value> <!-- 979 MHz CPU speed -->
@@ -71,7 +69,6 @@
     <!-- Additional power used by a CPU core from cluster 0 when running at
          different speeds, excluding cluster and active cost -->
     <array name="cpu.core_power.cluster0">
-      <value>34.55</value> <!-- 300 MHz CPU speed -->
       <value>46.57</value> <!-- 576 MHz CPU speed -->
       <value>54.84</value> <!-- 768 MHz CPU speed -->
       <value>68.16</value> <!-- 1017 MHz CPU speed -->
@@ -85,7 +82,6 @@
     <!-- Additional power used by a CPU core from cluster 1 when running at
          different speeds, excluding cluster and active cost -->
     <array name="cpu.core_power.cluster1">
-      <value>42.23</value> <!-- 300 MHz CPU speed -->
       <value>56.92</value> <!-- 652 MHz CPU speed -->
       <value>63.41</value> <!-- 806 MHz CPU speed -->
       <value>73.03</value> <!-- 979 MHz CPU speed -->
